@@ -1,0 +1,127 @@
+# ---------------------------------------------------------
+# IntelliJ IDEA
+# ---------------------------------------------------------
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# ---------------------------------------------------------
+# Maven / Java build output
+# ---------------------------------------------------------
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Keep Maven Wrapper JAR if the project uses Maven Wrapper
+!.mvn/wrapper/maven-wrapper.jar
+
+# ---------------------------------------------------------
+# Maven local/project files
+# ---------------------------------------------------------
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.zip
+
+# ---------------------------------------------------------
+# Logs
+# ---------------------------------------------------------
+*.log
+logs/
+
+# ---------------------------------------------------------
+# Environment variables and secrets
+# ---------------------------------------------------------
+.env
+.env.*
+!.env.example
+*.local
+application-local-secret.yml
+application-secret.yml
+secrets.yml
+
+# ---------------------------------------------------------
+# Spring Boot generated files
+# ---------------------------------------------------------
+spring.log
+
+# ---------------------------------------------------------
+# Docker / local runtime data
+# ---------------------------------------------------------
+.docker/
+docker-data/
+postgres-data/
+redis-data/
+
+# ---------------------------------------------------------
+# Test reports and coverage
+# ---------------------------------------------------------
+coverage/
+.jacoco/
+**/target/site/jacoco/
+**/target/surefire-reports/
+**/target/failsafe-reports/
+
+# ---------------------------------------------------------
+# Terraform
+# ---------------------------------------------------------
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.*
+*.tfvars
+*.tfvars.json
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# ---------------------------------------------------------
+# Kubernetes generated/temp files
+# ---------------------------------------------------------
+.kube/
+*.kubeconfig
+
+# ---------------------------------------------------------
+# AWS / cloud credentials
+# ---------------------------------------------------------
+.aws/
+aws-exports.js
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# ---------------------------------------------------------
+# OS files
+# ---------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------------------------------------------------------
+# Editor files
+# ---------------------------------------------------------
+.vscode/
+*.swp
+*.swo
+*~
+
+# ---------------------------------------------------------
+# Node / auxiliary tooling
+# ---------------------------------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ---------------------------------------------------------
+# Claude Code local kit
+# ---------------------------------------------------------
+.claude/
