@@ -39,6 +39,20 @@ specs/
 │   ├── TASK-003-tenant-crud.md
 │   └── TASK-004-api-key-management.md
 │
+├── 005-security-observability/
+│   ├── US-005-security-and-observability.md
+│   ├── TASK-001-oauth2-jwt-resource-server.md
+│   ├── TASK-002-api-key-auth-filter.md
+│   ├── TASK-003-prometheus-metrics.md
+│   └── TASK-004-opentelemetry-tracing.md
+│
+├── 006-production-ready/
+│   ├── US-006-production-ready.md
+│   ├── TASK-001-docker-image.md
+│   ├── TASK-002-github-actions-ci.md
+│   ├── TASK-003-terraform-baseline.md
+│   └── TASK-004-eks-deploy.md
+│
 └── adr/
     ├── ADR-001-use-spring-cloud-gateway.md
     ├── ADR-002-use-redis-for-rate-limiting.md
